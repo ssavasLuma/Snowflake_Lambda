@@ -24,6 +24,9 @@ def lambda_handler(event, context):
 
 
     '''
+    
+    STILL NEED TO PLAY WITH S3
+    
     # send the query info into an s3 file
     response = s3.put_object(
         Body=(bytes(json.dumps(product_table).encode('UTF-8'))),
