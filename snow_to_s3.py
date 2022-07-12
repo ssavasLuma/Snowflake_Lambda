@@ -8,9 +8,9 @@ def lambda_handler(event, context):
 
     # connect to snowflake
     ctx = sf.connect(
-        user='ssavas',
-        password='C0mp5ciM@joR',
-        account='sna80629.us-east-1'
+        user='',
+        password='',
+        account=''
     )
 
     # create a cursor object so we can make queries
